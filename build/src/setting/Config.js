@@ -37,15 +37,15 @@ export default class OrasConfig extends Object {
         this.voteApi =
             "";
         this.webhooks = {
-            guildCreate: "",
-            guildDelete: "",
-            Cmds: "",
+            guildCreate: "",//put webhook
+            guildDelete: "",//put webhook
+            Cmds: "",//put webhook
         };
         this.server = "https://discord.gg/codersplanet";
-        this.botinvite = ``;
-        this.spotiId = "";
-        this.spotiSecret = "";
-        this.owners = [""];
+        this.botinvite = ``;//put you bot invite link
+        this.spotiId = "6c31645ffb004ab8b44d06f7b96d1b66";
+        this.spotiSecret = "3618fdc0b4824cfd91a8d425dac32987";
+        this.owners = [""];//put you discord id
         this.color = "#2b2d31";
         this.supportId = ""; //Server Id
         this.spotiNodes = [
