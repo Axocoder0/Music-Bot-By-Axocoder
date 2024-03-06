@@ -17,8 +17,8 @@ export default class OrasConfig extends Object {
     constructor() {
         super();
         this.token =
-            "";
-        this.botid = ""
+            "MTIxMTkzNTI1MTc3Mzc4NDA3NQ.GO9tY3.s3OtZ6tkeT-XVzzjajxl7Uf4C_8vN53VqeDpMg";
+        this.botid = "1211935251773784075"
         this.prefix = "+";
         this.nodes = [
             {
@@ -37,15 +37,15 @@ export default class OrasConfig extends Object {
         this.voteApi =
             "";
         this.webhooks = {
-            guildCreate: "",//put webhook
-            guildDelete: "",//put webhook
-            Cmds: "",//put webhook
+            guildCreate: "https://discord.com/api/webhooks/1213565890818342942/d72UqsnWZ1p2zpSFu3mnes4VH6Ty7GxUXpKXpDILAw3SEGb40fXECW_X15LmeWYe1ltl",//put webhook
+            guildDelete: "https://discord.com/api/webhooks/1213566009110298674/bZKSpfLLyI53KM4K_pCnRMwRaE0uar68ps5_WXAZA6trEE3yC1wfGfm9Gug8HfvoyBcU",//put webhook
+            Cmds: "https://discord.com/api/webhooks/1213566168196055060/_c46l_AaivesilWTRAThzEjcJMzwWZMvzQuNxwXgzt3kYk8H5s1H2bKCMrRC5BADShPN",//put webhook
         };
         this.server = "https://discord.gg/codersplanet";
         this.botinvite = ``;//put you bot invite link
-        this.spotiId = "6c31645ffb004ab8b44d06f7b96d1b66";
-        this.spotiSecret = "3618fdc0b4824cfd91a8d425dac32987";
-        this.owners = [""];//put you discord id
+        this.spotiId = "a4171cdcbe7d4dc89282879ecdd2bf5f";
+        this.spotiSecret = "182c6f593d62415397075bad9c5232ae";
+        this.owners = ["1208965142621069432"];//put you discord id
         this.color = "#2b2d31";
         this.supportId = ""; //Server Id
         this.spotiNodes = [
